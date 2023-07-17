@@ -293,18 +293,3 @@ body {
   }
 }
 
-/* Safari */
-video {
-  -webkit-appearance: none;
-  /* Remove o estilo padrão do Safari */
-}
-
-video::-webkit-media-controls-start-playback-button {
-  display: none;
-  /* Oculta o botão de reprodução padrão do Safari */
-}
-
-video::-webkit-media-controls {
-  overflow: visible !important;
-  /* Garante que os controles do vídeo sejam visíveis */
-}
